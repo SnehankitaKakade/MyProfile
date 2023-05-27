@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+      *{
+                font-family: 'Roboto Slab', serif;
+            }
+            label{
+                color: cadetblue;
+                font-size: x-large;
+            }
+            input{
+                width: 400px;
+                height: 25px;
+                border-radius: 10px;
+                border: 1px solid burlywood;
+                color: cadetblue;
+            }
+            input[type="text"]{
+                text-transform: capitalize;
+            }
+            input[type="email"]{
+                color: chocolate;
+            }
+            #submit:hover{
+                background-color: burlywood;
+            }
+            button[type="reset"]:hover{
+                color: brown;
+            }
+            a,span{
+              margin-right:25px;
+            }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <h2>Contact Us</h2>
+
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td><label for="name">Full Name:</label></td>
+            <td>
+              <input
+                type="text"
+                autofocus
+                required
+                maxlength="40"
+                id="name"
+                placeholder="Max character length=40"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="mob">Mobile No:</label></td>
+            <td><input type="text" id="mob" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+              <input
+                type="email"
+                placeholder="äbc@gmail.com"
+                required
+                id="email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Address">Enquiry:</label></td>
+            <td><textarea id="Address" rows="10" cols="35"></textarea>
+            </td> 
+          </tr>
+          <tr>
+            <td><button type="submit" id="submit">Submit</button></td>
+            <td><button type="reset">Clear</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <br>
+    <footer>
+    <span> Follow me </span> 
+    <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a> 
+    <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> 
+    <a href="https://www.google.com/" target="_blank"> <i class="fa fa-google" aria-hidden="true"></i></a>
+
+    </footer>
+    
+  </body>
+</html>
